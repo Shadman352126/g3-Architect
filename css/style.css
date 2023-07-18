@@ -59,7 +59,7 @@ nav li a {
   padding: 40px 0px;
 }
 .banner-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
   color: #131313;
 }
@@ -95,6 +95,40 @@ main {
 }
 .feature {
   color: #ff900e;
+}
+/* feature */
+.features {
+  margin: 130px 0;
+  display: flex;
+  gap: 100px;
+}
+.feature-content .f-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.feature-content .feature-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.ten-years {
+  width: 342px;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 40px;
+}
+.ten-years h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.ten-years p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 /* fact section */
 .facts-card {
